@@ -1,0 +1,291 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: White;
+}
+
+header {
+  /* display is a grid, each entity contains is a "block" in the grid */
+  display:grid;
+  /* this is 3 columns */
+  grid-template-columns: 10% 80% 10%;
+  padding-bottom:20px;
+  margin-bottom:20px;
+  border-bottom: 2px solid #A5CF58;
+  background-color: #54276D;
+}
+.logo img
+{
+  width: 200px;
+  height: auto;
+  float: left;
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li a
+{
+  color: Black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.main-nav li.active a
+{
+  border: 1px solid #A5CF58;
+}
+.main-nav li a:hover
+{
+  border: 1px solid #A5CF58;
+}
+
+.body
+{
+  font-family: monospace;
+}
+
+.row
+{
+  max-width: 1200px;
+  margin: auto;
+}
+div#MainContent {
+  /* styles for #MainContent */
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:20px;
+}
+
+div.bs_carousel {
+  /*max-width:1000px;*/
+  width:100%;
+  margin:0 auto;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+img.portolioPicture {
+  width:50%;
+  float:left;
+  padding-right: 10px;
+
+}
+
+footer {
+  background-color : #fff;
+  border-top-color: #cccccc;
+  border-top-width: 5px;
+  border-top-style: solid;
+  /* add padding to the top to match to size of the border */
+  padding-top:5px;
+
+  /* remove border since it was used as an example
+  border: 1px solid green;
+  */
+
+  /* we want this to be all that way at the bottom */
+  /* position tells html how to handle the element */
+  position:fixed;
+  /* options are
+  static (default)
+  relative (to the parent element)
+  absolute (to the first positioned element)
+  fixed (sticky - to the window)
+  */
+  bottom: 0px;
+  /* bottom tells it to be at the bottom of the window */
+  /* as soon as we using positioning, the div (footer) acts as an inline element */
+  /* so, we have to tell the element to be full width */
+  width: 100%;
+  /* finally, I don't like the social media all the way at the bottom,
+     let's bump them up a bit */
+  padding-bottom: 5px;
+  /* really this should be with the other padding up there!! */
+}
+footer nav {
+  text-align:center;
+
+}
+footer nav a {
+  font-family: "Roboto", sans-serif;
+  text-decoration:none;
+  padding-left:10px;
+  padding-right:10px;
+  margin-left:15px;
+  margin-right:15px;
+
+}
+
+footer div.socialMedia {
+  /* change the padding to only be top and sides for social media div
+  padding: 20px;
+  */
+  /* 20px on the top */
+  padding-top: 20px;
+  /* only 10 on the sides to match the padding for the main content */
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.socialMedia a {
+  margin: 20px;
+
+  padding: 10px;
+
+}
+
+@media screen and (max-width: 1023px) {
+  header div.header_search {
+    /* this tells the browser to "span" the grid columns */
+    grid-column-start: 1;
+    /* notice the grid-column-end is number of columns + 1 */
+    grid-column-end: 4;
+  }
+
+}
+@media screen and (min-width: 800px) {
+  footer {
+    display:grid;
+    /* removed grid-column-gap it causes a horizontal scroll
+    grid-column-gap: 10px;
+    */
+    grid-template-columns: 50% 50%;
+
+  }
+
+  footer nav {
+    /* align text to left when the screen is wider */
+    text-align:left;
+  }
+
+  /* "first-child" is what is known as a pseudo class,
+     this will apply ONLY to the first a tag under the nav element to make it
+     line up with the main Content
+     */
+  footer nav a:first-child {
+    margin-left:0px
+  }
+
+  footer div.socialMedia {
+    /* remove padding on social media element and have text align to the right */
+    padding:0px;
+    text-align:right;
+  }
+
+  footer div.socialMedia a:last-child {
+    margin-right:0px
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    grid-template-columns: 25% 50% 25%;
+  }
+  header .header_logo1, header .header_logo2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  header div.header_search {
+    text-align:right;
+    padding-right:10px;
+  }
+}
