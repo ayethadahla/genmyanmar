@@ -9,7 +9,7 @@ header {
 {
     float: right;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .main-nav li
 {
@@ -17,7 +17,7 @@ header {
 }
 .main-nav li a
 {
-  color: Black;
+  color: White;
   text-decoration: none;
   padding: 5px 20px;
   font-family: "Roboto", sans-serif;
