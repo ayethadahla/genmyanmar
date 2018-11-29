@@ -37,9 +37,13 @@ header {
   height: auto;
   float: left;
 }
+header.socialMedia{
+
+}
 .body
 {
-  font-family: monospace;
+  font-family: "Roboto", sans-serif;
+  .row.content {height: 450px}
 }
 
 .row
@@ -47,12 +51,17 @@ header {
   max-width: 1200px;
   margin: auto;
 }
-
+.about{
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+}
 footer {
-  background-color : #fff;
-  border-top-color: #cccccc;
-  border-top-width: 5px;
-  border-top-style: solid;
+  background-color : #54276D;
+  border-bottom-color: #A5CF58;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  color:white;
   /* add padding to the top to match to size of the border */
   padding-top:5px;
 
