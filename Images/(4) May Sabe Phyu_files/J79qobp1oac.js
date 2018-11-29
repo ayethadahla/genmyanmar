@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["2r7tK"]); }
+
+__d("AdsLWIDialogStateDialogCloseReducerPlugin",["AdsLWIDialogBaseState","AdsLWIDialogState","AdsLWIInstanceType","immutable"],(function(a,b,c,d,e,f){"use strict";var g=b("AdsLWIInstanceType").NO_INSTANCE_ID;a={reduce:function(a,c){return new(b("AdsLWIDialogState"))({dialogState:new(b("AdsLWIDialogBaseState"))({phaseType:null,step:0,instanceID:g}),flowID:a.flowID,entryPoint:a.entryPoint,history:b("immutable").List(),pageID:a.pageID,shown:!0})}};e.exports=a}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["N1BqK"]); }
+
+__d("AdsLWIQuestionnaireLoggerUtils",["BoostedComponentGenericEventsTypedLogger","adsLWICurrentDialogStateSelector"],(function(a,b,c,d,e,f){"use strict";function a(event,a,c){var d=b("adsLWICurrentDialogStateSelector")(),e=d.pageID;d=d.entryPoint;e=new(b("BoostedComponentGenericEventsTypedLogger"))().setEvent(event).setPageID(e).setEntryPoint(d);a!=null&&e.addToExtraData(a,c);e.log()}e.exports={logEvent:a}}),null);

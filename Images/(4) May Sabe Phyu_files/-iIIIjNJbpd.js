@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ecx0F"]); }
+
+__d("AdsLWIDialogStateCreationNextStepReducerPlugin",["AdsLWIStepperManager","FBLogger","nullthrows"],(function(a,b,c,d,e,f){"use strict";__p&&__p();a={reduce:function(a,c){var d=a.dialogState,e=a.history;c=d.phaseType;var f=d.step;c=b("AdsLWIStepperManager").getPhase(b("nullthrows")(c));if(f<c.getNumSteps()-1)return a.withMutations(function(a){a.set("dialogState",d.set("step",f+1)).set("history",e.push(d))});else b("FBLogger")("boosted_component").mustfix("Attempted to go to next step when there is no next step");return a}};e.exports=a}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["mwpY+"]); }
+
+__d("AdsLWIDialogStateDialogOpenWithInstanceReducerPlugin",["AdsLWIDialogStateDialogOpenWithInstanceActionHandler"],(function(a,b,c,d,e,f){"use strict";a={reduce:function(a,c){var d=b("AdsLWIDialogStateDialogOpenWithInstanceActionHandler").genExtraData&&b("AdsLWIDialogStateDialogOpenWithInstanceActionHandler").genExtraData(c,a);return b("AdsLWIDialogStateDialogOpenWithInstanceActionHandler").mutate(c,a,d)}};e.exports=a}),null);

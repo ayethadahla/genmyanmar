@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ZEpqX"]); }
+
+__d("AdsLWIEnableMessengerWelcomeMessageReducerPlugin",["adsLWICommonStoreStateKeySelector"],(function(a,b,c,d,e,f){"use strict";a={reduce:function(a,c){c=b("adsLWICommonStoreStateKeySelector")();return!c||!a.storeDataMap.has(c)?a:a.setDataByKey(c,a.getDataByKey(c).update("messengerWelcomeMessageEnabled",function(a){return!0}))}};e.exports=a}),null);

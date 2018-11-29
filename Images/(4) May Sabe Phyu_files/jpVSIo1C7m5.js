@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["q0mXG"]); }
+
+__d("CatalogBasedLocationConstants",[],(function(a,b,c,d,e,f){"use strict";var g={TYPE_EVERYONE_IN:"everyone_in",TYPE_HOME:"home",TYPE_TRAVELING_IN:"traveling_in",getDefaultLocationType:function(){return g.TYPE_EVERYONE_IN},getInDestinationGeoLocationCountries:function(){return["US"]},getInDestinationGeoLocationCountryGroups:function(){return["worldwide"]},getInDestinationGeoLocationTypes:function(){return["home","recent"]}};e.exports=g}),null);

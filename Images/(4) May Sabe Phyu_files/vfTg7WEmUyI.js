@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["6DS7R"]); }
+
+__d("AdsLWIDialogStateCreationPrevStepReducerPlugin",["FBLogger"],(function(a,b,c,d,e,f){"use strict";a={reduce:function(a,c){var d=a.history;if(!d.isEmpty())return a.withMutations(function(a){a.set("dialogState",d.last()).set("history",d.pop())});else b("FBLogger")("boosted_component").warn("Attempted to go to previous step when there is no history");return a}};e.exports=a}),null);
