@@ -4,7 +4,9 @@ header {
     padding: 0;
     background-color: #54276D;
 }
-
+img.headerlogo {
+  width: 100%
+}
 .main-nav
 {
     float: right;
@@ -51,11 +53,22 @@ header.socialMedia{
   max-width: 1200px;
   margin: auto;
 }
+.socialMedia {
+text-align: right;
+padding-top: 10px;
+padding-right: 15px;
+}
+
+.socialMedia a{
+  padding: 5px;
+}
 .about{
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
   background-color: white;
+  text-align: left;
 }
+
 footer {
   background-color : #54276D;
   border-bottom-color: #A5CF58;
