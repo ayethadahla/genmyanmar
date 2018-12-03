@@ -1,60 +1,82 @@
-<!doctype html>
+<<!doctype html>
 <html lang="en-US">
 <head>
   <title>Gender Equality Network</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat" rel="stylesheet">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-  <link href="STYLE2.css" rel="stylesheet" type="text/css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <header>
-      <!-- Logo & Menu bar -->
-    <div class="Row">
-      <div class="header_logo1"></div>
-      <div class="header_logo2">
-        <img src="Images/GENLOGO.png" alt="GEN Logo">
+    <header>
+        <!-- Logo & Menu bar -->
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="Images/GEN logo.png" alt="GEN Logo" class="headerlogo">
+        </div>
+        <div class="col-sm-8">
+          <div class="socialMedia">
+            <a href="https://www.facebook.com/genmyanmar/"><img src="Images/facebook.png" alt="facebook"></a>
+            <a href="https://www.facebook.com/genmyanmar/messenger/"><img src="Images/messenger.png" alt="Messenger"></a>
+            <a href="login.html"><img src="Images/login.png" alt="Login"></a>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="main-nav">
+              <li><a href="index.html"> HOME</a> </li>
+              <li><a href="about.html"> WHO WE ARE </a> </li>
+              <li><a href=""> WHAT WE DO </a> </li>
+              <li><a href=""> RESOURCES </a> </li>
+              <li><a href=""> GET INVOLVE </a> </li>
+              <li class="active"><a href="contact.html"> CONTACT </a> </li>
+          </ul>
+          </div>
+        </div>
       </div>
-      <div>
+    </header>
 
-        <ul class="main-nav">
-        <li class="active"><a href-""> HOME</a> </li>
-        <li><a href-""> WHO WE ARE </a> </li>
-        <li><a href-""> WHAT WE DO </a> </li>
-        <li><a href-""> RESOURCES </a> </li>
-        <li><a href-""> JOIN US </a> </li>
-        <li><a href-""> CONTACT </a> </li>
-      </ul>
-      </div>
-      <div class="socialMedia">
-        <a href="https://www.facebook.com/genmyanmar/"><img src="Images/facebook.png" alt="facebook"></a>
-        <a href="https://www.instagram.com/Messenger/"><img src="Images/messenger.png" alt="Messenger"></a>
-        <a href="https://www.genmyanmar.org/login/"><img src="Images/login.png" alt="Login"></a>
-      </div>
-
-  </div>
-  </header>
-
-
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <p>Building (99), 1st Floor, Room (1 A - D), <br> Lamai Condominion, Myay Nu Street, <br> Sanchaung Township, Yangon, Myanmar.</p>
+      <a href="tel: 09421144394"><i class="fas fa-phone"></i>  (+95) 9421144394</a><br>
+      <a href="mailto:gen.myanmar@gmail.com"><i class="fas fa-envelope"></i><span>  genmyanmar@gmail.com</a>
+      <h3>Send Message</h3>
+      <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br>
+        Message:<br>
+        <input type="text" name="comment" size="50"><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+      </form>
 
   <footer>
     <nav>
-      <a href="Contact.html">Contact Us</a>
-      <a href="https://www.facebook.com/genmyanmar/">Follow Us</a>
       <a href="about.html">About Us</a>
+      <a href="https://www.facebook.com/genmyanmar/">Follow Us</a>
+      <a href="contact.html">Contact Us</a>
+
     </nav>
   <nav style="text-align:center">&copy;2018, Gender Equality Network</nav>
-<script src="scripts/slideshow-auto.js"></script>
+  <script src="scripts/slideshow-auto.js"></script>
+
 
   </footer>
 </body>
