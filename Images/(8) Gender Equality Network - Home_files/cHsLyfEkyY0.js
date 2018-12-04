@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["PB+fj"]); }
+
+__d("AdsLWIValuableCommentPostAction",["Laminar","AdsLWIValuableCommentPostReducerPlugin","AdsLWIValuableCommentPostProvider"],(function(a,b,c,d,e,f){"use strict";a=b("Laminar").__createAction(function(){return[b("Laminar").__createReducer(b("AdsLWIValuableCommentPostReducerPlugin"),b("AdsLWIValuableCommentPostProvider"),{})]},"AdsLWIValuableCommentPostActionPlugin");e.exports=a}),null);
