@@ -76,6 +76,7 @@ padding-right: 15px;
 .whoweare {
   margin: 10px;
   padding: 10px;
+  margin-bottom: 20px;
   background-color: white;
   text-align: left;
   color: black;
@@ -83,6 +84,7 @@ padding-right: 15px;
 .login {
   margin: 10px;
   padding: 10px;
+  margin-bottom: 20px;
   background-color: white;
   text-align: left;
   color: black;
@@ -91,6 +93,7 @@ padding-right: 15px;
 .contact{
   margin: 10px;
   padding: 10px;
+  margin-bottom: 20px;
   background-color: white;
   text-align: left;
   color: black;
