@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["YjdJi"]); }
-
-__d("UFIFeedbackPinnedCommentLink.react",["cx","fbt","LiveVideoPinnedCommentUtils","React"],(function(a,b,c,d,e,f,g,h){"use strict";a=function(a){var c=h._("Unpin Comment"),d=h._("Pin Comment"),e=function(){a.contextArgs.isActiveLivingRoom==!0?b("LiveVideoPinnedCommentUtils").toggleFeedbackCommentPin(a):b("LiveVideoPinnedCommentUtils").toggleCommentPin(a)};return b("React").createElement("a",{className:"uiLink",href:"#",onClick:e},a.isPinned?c:d)};e.exports=a}),null);

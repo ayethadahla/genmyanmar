@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["juZhB"]); }
-
-__d("AdsLWIEnableWelcomeMessageAction",["Laminar","AdsLWIEnableMessengerWelcomeMessageReducerPlugin","AdsLWIMessengerWelcomeMessagesProvider"],(function(a,b,c,d,e,f){"use strict";a=b("Laminar").__createAction(function(){return[b("Laminar").__createReducer(b("AdsLWIEnableMessengerWelcomeMessageReducerPlugin"),b("AdsLWIMessengerWelcomeMessagesProvider"),{})]},"AdsLWIEnableWelcomeMessageActionPlugin");e.exports=a}),null);

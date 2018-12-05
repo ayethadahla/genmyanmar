@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["O1kg7"]); }
-
-__d("AdsMessengerBidAmountUtils",["AdsCampaignUtils","AdsMessengerBidAmountConfig"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g=b("AdsMessengerBidAmountConfig").DEFAULT_BID,h=b("AdsMessengerBidAmountConfig").MIN_BID,i="USD",j=function(a){return a!=null&&a!==""?a:i},k={getMinBidAmount:function(a,c){a=j(a);c=k.getMinBidAmountUSD(c);return b("AdsCampaignUtils").convertUSDBudgetToCurrency(a,c)},getDefaultBidAmount:function(a,c){a=j(a);c=k.getDefaultBidAmountUSD(c);return b("AdsCampaignUtils").convertUSDBudgetToCurrency(a,c)},getMinBidAmountUSD:function(a){return h.country_override[a]||h["default"]},getDefaultBidAmountUSD:function(a){return g.country_override[a]||g["default"]}};e.exports=k}),null);

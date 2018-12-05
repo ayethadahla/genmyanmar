@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["RPsiD"]); }
-
-__d("AdsLWIDialogStateDialogOpenWithPhaseReducerPlugin",["AdsLWIDialogStateDialogOpenWithPhaseActionHandler"],(function(a,b,c,d,e,f){"use strict";a={reduce:function(a,c){var d=b("AdsLWIDialogStateDialogOpenWithPhaseActionHandler").genExtraData&&b("AdsLWIDialogStateDialogOpenWithPhaseActionHandler").genExtraData(c,a);return b("AdsLWIDialogStateDialogOpenWithPhaseActionHandler").mutate(c,a,d)}};e.exports=a}),null);

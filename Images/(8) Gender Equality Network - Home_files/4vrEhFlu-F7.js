@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["N4FTW"]); }
-
-__d("AdsProfilerSyncIntervalProducer",["AdsProfilerEntities","ProfilingCounters","performanceAbsoluteNow"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g;c=b("AdsProfilerEntities").AdsProfilerProducer;g=babelHelpers.inherits(a,c);g&&g.prototype;a.prototype.getEnd=function(){var a=this.getPropagate();if(!a)return null;var c=b("ProfilingCounters").startTiming("ADS_INTERFACES"),d={start:b("performanceAbsoluteNow")(),end:null,payload:null};return function(e){b("ProfilingCounters").stopTiming(c),d.end=b("performanceAbsoluteNow")(),d.payload=e,a(d)}};function a(){g.apply(this,arguments)}e.exports=a}),null);

@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["DGmI0"]); }
-
-__d("AdsLWIDialogStateDataProviderPlugin",["AdsLWIDialogBaseState","AdsLWIDialogState","AdsLWIInstanceType","immutable"],(function(a,b,c,d,e,f){"use strict";a=b("AdsLWIInstanceType").NO_INSTANCE_ID;c={initialState:new(b("AdsLWIDialogState"))({dialogState:new(b("AdsLWIDialogBaseState"))({instanceID:a,phaseType:null,step:0}),entryPoint:"",flowID:"",history:b("immutable").List(),pageID:"",shown:!1})};e.exports=c}),null);
