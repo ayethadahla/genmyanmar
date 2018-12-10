@@ -21,7 +21,7 @@ img.headerlogo {
 {
   color: White;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 2px 10px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
@@ -70,13 +70,14 @@ padding-right: 15px;
 .about{
   margin: 10px;
   padding: 10px;
+  margin-bottom: 40px;
   background-color: white;
   text-align: left;
 }
 .whoweare {
   margin: 10px;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   background-color: white;
   text-align: justify;
   color: black;
@@ -84,7 +85,15 @@ padding-right: 15px;
 .login {
   margin: 10px;
   padding: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 40px;
+  background-color: white;
+  text-align: left;
+  color: black;
+}
+.signup {
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 40px;
   background-color: white;
   text-align: left;
   color: black;
@@ -93,7 +102,7 @@ padding-right: 15px;
 .contact{
   margin: 10px;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-color: white;
   text-align: left;
   color: black;
