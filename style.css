@@ -175,6 +175,12 @@ footer nav a {
       overflow-x: hidden;
       overflow-y: hidden;
     }
+    .centered {
+      position: absolute;
+      top: 30%;
+      left: 18%;
+      transform: translate(-20%, -35%);
+    }
  .main-nav li {
    display: block;
  }
